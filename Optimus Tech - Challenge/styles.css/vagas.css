@@ -1,0 +1,84 @@
+.vagas__topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+}
+
+.vagas__cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.vagas__span {
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    color: var(--vinho);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 12px;
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.vagas__txt {
+    color: var(--cinza-font);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.vagas__img {
+    background-position: center;
+}
+
+.funcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.area__funcao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 24px 28px;
+    gap: 24px;
+    margin: 0 auto;
+    width: 768px;
+
+    box-sizing: border-box;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.nome__funcao {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 380px;
+    margin-top: 32px;
+}
+
+.vagas__funcao-titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.vaga__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.vagas__funcao-txt {
+    color: var(--cinza-font);
+    font-size: 16px;
+    font-weight: 500;
+}

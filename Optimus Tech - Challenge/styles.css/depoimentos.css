@@ -1,0 +1,50 @@
+.calaborador {
+    display: block;
+    padding: 0px 96px;
+}
+
+.depoimentos {
+ background: rgba(196, 25, 25, 0.03);
+ border-radius: 16px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 0px 80px 0px 80px;
+ padding: 0px 32px;
+ gap: 32px;
+}
+
+.span__txt {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+    margin-top: 64px;
+}
+
+.colab__txt {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.colab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.colab__nome {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.colab__funcao {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-font);
+    margin-bottom: 64px;
+}
+

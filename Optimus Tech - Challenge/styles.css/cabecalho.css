@@ -1,0 +1,29 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 24px;
+}
+
+.cabecalho__sobre {
+    font-weight: 600;
+    color: var(--vinho);
+}
+
+.cabecalho__pergunta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 12px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.cabecalho__text {
+    max-width: 50%;
+    line-height: 1.5rem;
+    color: var(--cinza-font);
+    text-align: center;
+}
